@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" href="../style.css" type="text/css">
+	</head>
+	<body>
+<h2>Publication Venue Canonicalization Data v1.0</h2>
+
+6/6/07 The data is available here: <a
+href="canonicalization_data_v1.0.tgz">canonicalization_data_v1.0.tgz</a>
+(md5sum = 1752b38bbe66d99af38a429a3b157bbd)
+
+<p> This data contains lists of conference and journal names culled from the Web by <a href="http://www.rexa.info">Rexa</a>. Given a set of strings referring to the same conference or journal, the task is to determine which string should be the <b>canonical</b> one. The canonical string should be free of spelling, segmentation, and OCR errors, and should in some sense be prototypical of the entity.
+
+<p> For more details, see <a href="../pubs/culotta07canonicalization.pdf">this paper</a>.</p> 
+	
+<p>Strings referring to different venues are separated by a blank line. The first string in a list of venues is the one that has been manually annotated as canonical.
+For example, in the block
+<br>
+<font face="courier" size="-1">
+in proceedings of the ninth national conference on artificial intelligence<br>
+in proc 9th conf aaai<br>
+in proceedings of the ninth national conference on artifici al intelligence<br>
+</font>
+<br>The first string is the canonical one.
+
+<p> Because the canonical string is in some sense subjective, the data has two sets of labels, located in separate directories:
+<li> <i>long</i> - The canonical string is the long, full venue name (e.g., National Conference on Artificial Intelligence)
+<li> <i>short</i> - The canonical string is the abbreviated venue name (e.g., AAAI)
+<br><br>
+Each directory is also split into 5 cross-validation sets (e.g., <i>long/train.1</i> and <i>long/test.1</i> are one split).
+
+<p>
+Some statistics about the data:
+<li> 3,683 venue strings
+<li> 100 unique venues
+<li> 32,556 tokens
+	
+</body>
+</html>

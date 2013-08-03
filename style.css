@@ -1,0 +1,191 @@
+
+body {
+    font-family: 'Gill Sans', 'verdana'; 
+    /*font-family: Verdana, "Bitstream Vera Sans", sans-serif;*/
+    margin:  0;
+    padding: 0;
+    min-width: 800px;
+}
+
+/*img {
+	float:left;
+	vertical-align: middle;
+	margin-right: 10px;	
+	margin-bottom: 5px;
+}
+*/
+h2 {
+	margin-bottom:1px;
+	font-weight: 500;
+}
+h3 {
+	font-weight: 400;
+}
+td {
+	vertical-align: top;
+	padding-right: 10px;
+	padding-bottom: 9px;
+}
+
+table.publications tr:nth-child(even) td:nth-child(even) {
+	background-color: #EEEEEE;
+}
+
+table.publications td:nth-child(1), table.teaching td:nth-child(1) {
+	font-weight:bold;
+}
+
+
+.header {
+    color: white;
+    height: 155px;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width:830px;
+    background: #a00000;
+}
+
+
+.header h2 {
+	/*font: 1.6em Verdana;*/
+	height: 50px;
+	vertical-align: middle;
+	margin:  0 auto;
+	padding: 30px 25px 0px 75px;
+	color: #fff;
+	background: #a00000;
+}
+
+
+.header p {
+	/*font: 1.6em Verdana;*/
+	vertical-align: bottom;
+	margin-top: 5px;
+	margin-left: 30px;
+	color: #fff;
+	horizontal-align: center;
+	background: #a00000;
+	font-size: smaller;
+}
+
+.header a {
+    color: white;
+}
+
+.iitlink {
+    position: absolute;
+    top: 15px;
+    left: 10px
+}
+
+
+.unilinks {
+        height: 100px;
+        position: absolute;  
+        top: 5px;  
+        right: 10px;  
+	padding: 3px 10px 0px 10px;
+}
+
+.unilinks ul {
+        list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.unilinks li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+
+.unilinks a {
+        font: 3.6em Verdana
+	height: 10px
+	color: #a00FFF
+}
+
+
+.note {
+	font-size: small;
+	font-weight: bold;
+}
+
+.author {
+}
+
+.title {
+	font-size: large;
+}
+.title a {
+	text-decoration: none;
+	color: #A00500;
+}
+
+.venue {
+	font-style: italic;
+/*	color: #999999;*/
+}
+
+.right_align {
+	text-align: right;
+}
+
+#tabList {
+	border-width: 0px;
+	padding: 0px;
+}
+
+
+#tabs li a {
+	text-decoration: none;
+	background-color: #4C4C4C;
+	color: white;
+	font-family: 'Gill Sans', 'verdana';
+}
+
+
+.ui-widget-header {
+border:0; background: none; 
+}
+#tabList .ui-widget-content {
+border:1px solid #aaaaaa; background:#ffffff none;
+font-size:90%;
+font-family: 'Gill Sans', 'verdana';
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+background:#f6f6f6 none; border:1px solid #cccccc;
+}
+.ui-state-active, .ui-widget-content .ui-state-active {
+background:#ffffff none; 
+}
+
+/* teaching */
+table.teaching tr td span a {
+	color: #E51D37l
+	text-decoration: none;
+
+}
+a, a.blue {
+	text-decoration: none;
+	color: #A00500;
+	font-weight: 500;
+
+}
+/* hover effect*/
+a:hover, table.teaching tr td span a:hover{
+    color: #4C4C4C; 	 /*#006699;*/
+}
+
+#tabs li a:hover {
+    color: #a00000;
+}
+
+table.courses tr td {
+	padding: 10px;
+	text-align: center;
+}
+
