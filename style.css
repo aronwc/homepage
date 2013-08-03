@@ -84,7 +84,7 @@ table.publications td:nth-child(1), table.teaching td:nth-child(1) {
 .unilinks {
         height: 100px;
         position: absolute;  
-        top: 5px;  
+        top: 2px;  
         right: 10px;  
 	padding: 3px 10px 0px 10px;
 }
@@ -123,7 +123,7 @@ table.publications td:nth-child(1), table.teaching td:nth-child(1) {
 .title a {
 	text-decoration: none;
 	color: #A00500;
-}
+1}
 
 .venue {
 	font-style: italic;
