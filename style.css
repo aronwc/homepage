@@ -48,7 +48,7 @@ table.publications td:nth-child(1), table.teaching td:nth-child(1) {
 }
 
 
-.header h2 {
+.header h2  {
 	/*font: 1.6em Verdana;*/
 	height: 50px;
 	vertical-align: middle;
@@ -62,7 +62,7 @@ table.publications td:nth-child(1), table.teaching td:nth-child(1) {
 .header p {
 	/*font: 1.6em Verdana;*/
 	vertical-align: bottom;
-	margin-top: 5px;
+	margin-top: 13px;
 	margin-left: 30px;
 	color: #fff;
 	horizontal-align: center;
