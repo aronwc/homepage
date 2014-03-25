@@ -130,6 +130,13 @@ table.publications td:nth-child(1), table.teaching td:nth-child(1) {
 /*	color: #999999;*/
 }
 
+.code a {
+    font-size: normal;
+    font-family: Courier;
+    text-decoration: none;
+    color: #A00500;
+}
+
 .right_align {
 	text-align: right;
 }
