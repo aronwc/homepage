@@ -31,8 +31,12 @@ table.publications tr:nth-child(even) td:nth-child(even) {
 	background-color: #EEEEEE;
 }
 
-table.publications td:nth-child(1), table.teaching td:nth-child(1) {
+table.publications td:nth-child(1) {
 	font-weight:bold;
+}
+table.teaching tr:nth-child(even) {
+	background-color: #EEEEEE;
+	padding: 0px;
 }
 
 
