@@ -1,7 +1,8 @@
 body {
 	font-family: 'Gill Sans', 'verdana';
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 300;
+	text-align: justify;
 }
 
 html {
@@ -12,8 +13,8 @@ html {
 
 
 .main {
-	width: 90%;
-	height: 90%;
+	width: 85%;
+	height: 85%;
 	min-width: 300px;
 	position: absolute;
 	top:0;
@@ -31,8 +32,8 @@ html {
 
 a {
 	text-decoration: none;
-	color: #A19696; /*#666666;*/
-	font-weight: 500;
+	color: #000033; /*#A19696;*/ /*#666666;*/
+	font-weight: 400;
 }
 
 a:hover {
