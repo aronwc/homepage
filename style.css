@@ -1,6 +1,6 @@
 body {
 	font-family: 'Gill Sans', 'verdana';
-	font-size: 18px;
+	font-size: 28px;
 	font-weight: 300;
 }
 
@@ -16,7 +16,7 @@ html {
 
 
 .main {
-	width: 75%;
+	width: 50%;
 	height: 75%;
 	min-width: 300px;
 	position: absolute;
@@ -51,6 +51,14 @@ ul {
 	list-style-type: none;
 }
 */
+table {
+	font-size: 75%;
+}
+
+table.teaching {
+	font-size: 95%;
+}
+
 td {
         vertical-align: top;
         padding-right: 10px;
